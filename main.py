@@ -7,7 +7,7 @@ from routers.user import user_router
 
 app = FastAPI()
 app.title = "Mi aplicación con  FastAPI"
-app.version = "0.0.1"
+app.version = "0.0.4"
 
 app.add_middleware(ErrorHandlerMiddleware)
 
